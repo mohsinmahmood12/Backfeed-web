@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Backfeed.ai</title>
+</head>
+
+<body class="bg-gradient-to-r from-purple-700 to-purple-800 text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="flex items-center justify-between p-5 bg-purple-700">
+        <div class="flex items-center">
+            <img src="pics/Backfeed Main Logo 2000x1500.jpg" alt="Logo" class="w-16 h-16 mr-2">
+            <div class="text-2xl font-bold">Backfeed.ai</div>
+        </div>
+        <div class="md:hidden">
+            <button id="mobile-menu-button" class="focus:outline-none">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <div id="nav-links" class="hidden md:flex">
+            <a href="#features" class="p-2">Features</a>
+            <a href="#contact-us" class="p-2">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="flex items-center justify-center text-center p-16">
+        <div class="mt-10 text-2e2a75">
+            <h1 class="text-5xl font-bold">Revolutionize Your Recruitment Process</h1>
+            <p class="mt-4 text-2xl">Introducing Backfeed.ai - An AI-powered recruitment platform that streamlines
+                hiring, enriches candidate experience, and empowers data-driven decisions.</p>
+        </div>
+        <div>
+            <img src="pics/BackfeedAI.jpeg" alt="Hero Image" class="w-96 ml-10 rounded-full">
+        </div>
+    </header>
+    
+
+    <!-- Features -->
+    <!-- Features -->
+<section id="features" class="p-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <!-- Feature 1 -->
+    <div class="bg-purple-700 rounded-lg p-6">
+        <h2 class="text-3xl font-semibold">Efficiency & Automation</h2>
+        <p class="mt-4">Resume Ranking & Extraction: Our smart algorithms sort through heaps of resumes, ranking candidates based on experience and qualifications. Make hiring faster and more precise with Backfeed.ai.</p>
+        <ul class="mt-4">
+            <li><span class="text-green-500">&#x2714;</span> Faster Hiring</li>
+            <li><span class="text-green-500">&#x2714;</span> Precise Ranking</li>
+            <li><span class="text-green-500">&#x2714;</span> Streamlined Process</li>
+            <li><span class="text-green-500">&#x2714;</span> Time Saving</li>
+        </ul>
+    </div>
+    <div class="flex justify-center">
+        <div class="rounded-full w-72 h-72 overflow-hidden">
+            <img src="pics/Resume Ranking and Extraction Version 1.jpg" alt="Feature 1 Image" class="w-full h-full object-cover transition-transform transform hover:scale-105">
+        </div>
+    </div>        
+    <!-- Feature 2 -->
+    <div class="flex justify-center">
+        <div class="rounded-full w-72 h-72 overflow-hidden">
+            <img src="pics/Candidate Shortlisting.jpg" alt="Feature 2 Image" class="w-full h-full object-cover transition-transform transform hover:scale-105">
+        </div>
+    </div>
+    <div class="bg-purple-700 rounded-lg p-6">
+        <h2 class="text-3xl font-semibold">Data-Driven Decisions</h2>
+        <p class="mt-4">Candidate Shortlisting: Bridge the gap between hiring managers and talent. Backfeed.ai automates the transfer of top-ranked candidates, ensuring that hiring decisions are data-driven and effective.</p>
+        <ul class="mt-4">
+            <li><span class="text-green-500">&#x2714;</span> Objective Insights</li>
+            <li><span class="text-green-500">&#x2714;</span> Enhanced Accuracy</li>
+            <li><span class="text-green-500">&#x2714;</span> Improved Decision Making</li>
+            <li><span class="text-green-500">&#x2714;</span> Measurable Results</li>
+        </ul>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="bg-purple-700 rounded-lg p-6">
+        <h2 class="text-3xl font-semibold">Enhanced Candidate Experience</h2>
+        <p class="mt-4">Rejection Email Feedback Analysis: Utilizing Natural Language Processing, Backfeed.ai provides personalized feedback to candidates, improving transparency and enriching their experience.</p>
+        <ul class="mt-4">
+            <li><span class="text-green-500">&#x2714;</span> Personalized Feedback</li>
+            <li><span class="text-green-500">&#x2714;</span> Transparent Process</li>
+            <li><span class="text-green-500">&#x2714;</span> Enriched Engagement</li>
+            <li><span class="text-green-500">&#x2714;</span> Improved Satisfaction</li>
+        </ul>
+    </div>
+    <div class="flex justify-center">
+        <div class="rounded-full w-72 h-72 overflow-hidden">
+            <img src="pics/Rejection Email Feedback Analysis.jpg" alt="Feature 3 Image" class="w-full h-full object-cover transition-transform transform hover:scale-105">
+        </div>
+    </div>
+
+    <!-- Feature 4 -->
+    <div class="flex justify-center">
+        <div class="rounded-full w-72 h-72 overflow-hidden">
+            <img src="pics/Candidate Feedback Analysis.png" alt="Feature 4 Image" class="w-full h-full object-cover transition-transform transform hover:scale-105">
+        </div>
+    </div>
+    <div class="bg-purple-700 rounded-lg p-6">
+        <h2 class="text-3xl font-semibold">Scalability & Adaptability</h2>
+        <p class="mt-4">Candidate Feedback Analysis: Backfeed.ai seamlessly scales with your needs, integrating candidate feedback data with analytics to continuously improve hiring practices.</p>
+        <ul class="mt-4">
+            <li><span class="text-green-500">&#x2714;</span> Flexible Solution</li>
+            <li><span class="text-green-500">&#x2714;</span> Customizable Features</li>
+            <li><span class="text-green-500">&#x2714;</span> Accommodates Growth</li>
+            <li><span class="text-green-500">&#x2714;</span> Agile Implementation</li>
+        </ul>
+    </div>
+</section>
+
+
+
+
+
+    <!-- Contact Us -->
+    <section id="contact-us" class="p-10 text-center bg-2e2a76">
+        <h2 class="text-4xl font-bold text-2e2a76">Contact Us</h2>
+        <p class="mt-4 text-xl text-2e2a76">Let's Connect! Whether you have questions, feedback, or are ready to revolutionize your recruitment process, our team is here for you.</p>
+        <form class="mt-8 max-w-md mx-auto">
+            <div class="mb-4">
+                <input type="email" name="email" placeholder="Your Email" class="p-2 rounded w-full text-2xl text-2e2a76 bg-fff0db" required>
+            </div>
+            <div class="mb-4">
+                <textarea name="message" placeholder="Your Message" class="p-2 rounded w-full h-40 text-2xl text-2e2a76 bg-fff0db" required></textarea>
+            </div>
+            <button type="submit" class="border-4 border-fff0db bg-fff0db hover:bg-fff0db text-2e2a76 font-bold py-2 px-4 rounded text-2xl">
+                Submit
+            </button>
+        </form>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

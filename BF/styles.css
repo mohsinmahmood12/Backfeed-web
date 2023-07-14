@@ -1,0 +1,81 @@
+/* Override default colors */
+body {
+    background-color: #fff0db;
+  }
+  
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, #fff0db, #fff0db, #2e2a76);
+  }
+  .text-2e2a75 {
+    color: #2e2a76;
+  }
+  .text-white {
+    color: #fff0db;
+  }
+  
+  .bg-purple-700 {
+    background-color: #2e2a76;
+  }
+  
+  .border-white {
+    border-color: #fff0db;
+  }
+  
+  /* Add the following styles to your existing CSS file */
+  .hero-image-container .border-white:hover {
+    box-shadow: 0 0 0 8px #fff0db;
+  }
+  /* Override default colors */
+
+.rounded-full {
+    border-radius: 50%;
+  }
+  
+  /* Animation */
+  .transition-transform {
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+  
+  .transform:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    background-color: #2e2a76;
+    color: #fff0db;
+    border-color: #fff0db;
+  }
+  
+  .contact-form input[type="email"]::placeholder,
+  .contact-form textarea::placeholder {
+    color: #fff0db;
+    opacity: 0.7;
+  }
+  .contact-form button {
+    background-color: #fff0db;
+    color: #2e2a76;
+  }
+  
+  .contact-form button:hover {
+    background-color: #2e2a76;
+    color: #fff0db;
+  }
+
+  .text-2e2a76 {
+    color: #2e2a76;
+  }
+  
+  .bg-2e2a76 {
+    background-color: #2e2a76;
+  }
+.text-2e2a76 {
+    color: #fff0db;
+  }
+.bg-fff0db {
+   color : #fff0db; 
+}
+  

@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url('../src/assets/Rect3.png');
+     background-repeat:no-repeat ;
+     background-size: 100%;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    body {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        background-color: #6816FF;
+        background-image: none;
+         background-repeat:no-repeat ;
+         background-size: 100%;
+    }
+
+
+}

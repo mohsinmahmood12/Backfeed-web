@@ -1,0 +1,369 @@
+<head>
+  <!-- ... -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap">
+</head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var navBtns = document.querySelectorAll('.navBtn');
+
+    navBtns.forEach(function (btn) {
+      btn.addEventListener('click', function (event) {
+        event.preventDefault();
+        var activeItem = document.querySelector('.nav-item.active');
+        if (activeItem) {
+          activeItem.classList.remove('active');
+        }
+        this.parentElement.classList.add('active');
+      });
+    });
+  });
+</script>
+<div class="main-container">
+
+<!-- navbar starts here -->
+<!-- navbar starts here -->
+<nav id="nav-id" class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
+  <div>
+    <div class="carousel-item active" style="padding-left: 100px;">
+      <img class="d-block w-100" src="../../assets/logo.png" routerLink='/arrival' alt="Logo">
+    </div>
+  </div>
+  <button style="background-color:rgba(255, 255, 255, 0)" class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#section1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section2">Resume Ranking</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section3">Shortlisting</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section4">Rejection</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section5">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section6">About US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section7">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    <!-- navbar ends here -->
+
+    <!-- Inspiration Container starts here -->
+
+    <div class="row" id="section1">
+        <div class="col-lg-6 col-md-9 col-sm-9 first-text">
+            <h3 class="inspo-text1">
+                INSPIRATION TECHNOLOGY.
+            </h3>
+
+            <h1 class="inspo-text2">
+                NEW ERA
+            </h1>
+
+            <h3 class="inspo-text3">
+                Of Hiring best Candidates
+            </h3>
+
+            <h4>__________________________________________</h4>
+
+            <p class="inspo-text4">Welcome to Backfeed.ai, your intelligent recruitment partner. We harness the power of
+                AI and machine
+                learning to streamline your hiring process, transforming how you identify, evaluate, and connect with
+                top talent. Dive into an optimized recruitment journey that's not just efficient, but human and
+                engaging.</p>
+
+        </div>
+
+        <div class="col-lg-6 col-md-3 col-sm-3">
+            <br>
+
+            <div class="parent">
+                <img class="image1" src="../../assets/both.jpg" />
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Inspiration Container ends here -->
+
+    <!-- Resume Container starts here -->
+
+    <div class="row" id="section2">
+        <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top: 0; padding-top: 0;">
+            <div class="parent">
+                <img class="image3" src="../../assets/circle2.png" />
+                <img class="image4 imgs" src="../../assets/resume.png" />
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-0 col-sm-0 resume-text">
+
+            <h1 class="resume-text1">
+                Resume Ranking and Extraction
+            </h1>
+
+            <p class="resume-text2">Welcome to Backfeed.ai, your intelligent recruitment partner. We harness the power
+                of AI and machine
+                learning to streamline your hiring process, transforming how you identify, evaluate, and connect with
+                top talent. Dive into an optimized recruitment journey that's not just efficient, but human and
+                engaging.
+            </p>
+            <span class="span-text">
+              <div class="span-text-item">
+                <i class="far fa-check-circle crcle"></i> High Analysis
+              </div>
+              <div class="span-text-item">
+                <i class="far fa-check-circle crcle"></i> Less time consuming
+              </div>
+              <div class="span-text-item">
+                <i class="far fa-check-circle crcle"></i> Hiring Accuracy
+              </div>
+              <div class="span-text-item">
+                <i class="far fa-check-circle crcle"></i> Cost Savings
+              </div>
+            </span>
+
+        </div>
+    </div>
+
+    <!-- Resume Container ends here -->
+
+    <!-- Shortlist Container starts here -->
+
+    <div class="row" id="section3">
+        <div class="col-xl-2 resume-text">
+
+        </div>
+
+        <div class="col-xl-10">
+            <br>
+
+            <div class="parent">
+                <img class="image5" src="../../assets/rectangle.png" />
+                <img class="image6 imgs" src="../../assets/shortlist.png" />
+                <h1 class="shortlist-text1">
+                    Candidate Shortlisiting
+                </h1>
+
+                <p class="shortlist-text2">Say goodbye to tedious manual shortlisting. Backfeed.ai seamlessly transfers top-ranked candidates to hiring managers, ensuring that only the most promising candidates move forward in the recruitment process.
+                </p>
+                <span class="span-text1 col-sm-12">
+                  <div class="span-text1-item">
+                    <i class="far fa-check-circle crcle"></i> Resource Saving
+                  </div>
+                  <div class="span-text1-item">
+                    <i class="far fa-check-circle crcle"></i> Improved Collaboration
+                  </div>
+                  <div class="span-text1-item">
+                    <i class="far fa-check-circle crcle"></i> Smooth Workflow
+                  </div>
+                  <div class="span-text1-item">
+                    <i class="far fa-check-circle crcle"></i> Streamlined Transfer
+                  </div>
+                </span>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Shortlist Container ends here -->
+
+
+    <!-- Rejection Container starts here -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="row" id="section4" style="background-image: linear-gradient(#6100ff, #6202ff);">
+        <div class="col-xl-8 first-text">
+            <h3 class="reject-text1">
+                Rejection Email Feedback Analysis
+            </h3>
+            <br>
+
+            <p class="reject-text2">Deliver constructive rejection with empathy. Our tool leverages AI to generate
+                personalized feedback for
+                candidates, ensuring a positive experience, even when it's a "no".</p>
+
+                <div class="span-text-container">
+                  <div class="span-text-item">
+                    <i class="far fa-check-circle crcle"></i> Competitive Advantage
+                  </div>
+                  <div class="span-text-item">
+                    <i class="far fa-check-circle crcle"></i> Alignment
+                  </div>
+                  <div class="span-text-item">
+                    <i class="far fa-check-circle crcle"></i> Employer Branding
+                  </div>
+                  <div class="span-text-item">
+                    <i class="far fa-check-circle crcle"></i> Candidate Experience
+                  </div>
+                </div>
+
+        </div>
+
+        <div class="col-xl-4">
+            <br>
+            <br>
+            <br>
+            <div class="parent">
+                <img class="image7 imgs" src="../../assets/reject.png" />
+
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Feedback Container starts here -->
+
+    <div class="row" id="section5" style="background-image: linear-gradient(#6100ff, #6202ff);">
+
+        <div class="col-xl-4">
+            <br>
+
+            <div class="parent">
+                <img class="image8 imgs" src="../../assets/candidate.png" />
+            </div>
+        </div>
+
+        <div class="col-xl-8 first-text">
+            <h3 class="feedback-text1">
+                Candidate Feedback Analysis
+            </h3>
+
+
+            <p class="feedback-text2">Turn feedback into your strategic advantage. With our advanced analysis, you'll
+                get comprehensive reports on candidate sentiment, fostering data-driven improvements in your recruitment
+                process.</p>
+
+            <p class="feedback-text2">Harness the power of analytics to evaluate candidate feedback. With sentiment analysis and detailed reports, Backfeed.ai provides actionable insights to continually refine and improve your hiring process.</p>
+
+        </div>
+    </div>
+
+    <!-- Feedback Container ends here -->
+    <!-- Add About Us and Contact Us in the navigation bar -->
+<ul class="navbar-nav">
+  <!-- ... existing nav items ... -->
+  <li class="nav-item">
+    <a class="nav-link" href="#section6">About Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#section7">Contact Us</a>
+  </li>
+</ul>
+
+<!-- Add About Us and Contact Us sections -->
+
+<!-- About Us Container starts here -->
+<div class="row" id="section6">
+  <div class="col-lg-12 first-text">
+    <h3 class="inspo-text1">
+      ABOUT US
+    </h3>
+    <p class="inspo-text4">
+      At Backfeed.ai, we are committed to redefining recruitment. Our vision is to empower companies with AI-driven tools that make recruitment efficient, data-centric, and candidate-friendly. With Backfeed.ai, we bring this vision to life.
+    </p>
+  </div>
+</div>
+<!-- About Us Container ends here -->
+<br>
+    <br>
+    <br>
+<!-- Contact Us Container starts here -->
+<div class="row" id="section7">
+  <div class="col-lg-12 first-text">
+    <h3 class="inspo-text1">
+      CONTACT US
+    </h3>
+    <p class="inspo-text4">
+      Let's Connect! Whether you have questions, feedback, or are ready to revolutionize your recruitment process, our team is here for you.
+    </p>
+  </div>
+</div>
+<!-- Contact Us Container ends here -->
+
+    <!-- Footer Container starts here -->
+    <br>
+    <br>
+    <br>
+
+
+    <div class="row footer" style="background-image: url('../../assets/rectangle.png'); background-repeat: no-repeat; background-size: 100%; display: flex; justify-content: center; align-items: center;">
+
+        <div class="col-xl-4 resume-text">
+            <div class="parent">
+                <img class="logo" src="../../assets/logo.png" />
+                <p class="last-text">Get started now try our product</p>
+                <div class="buttonIn">
+                    <input type="text" placeholder="Enter your email here" id="enter">
+                    <button id="clear"><i class="fas fa-arrow-right"></i></button>
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col-xl-6">
+            <br>
+            <div class="parent align-text">
+              <table>
+                  <tr>
+                      <td><span class="footer-item" style="color: white;"><b>Support</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Help and Solution</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Product</b></span></td>
+                  </tr>
+                  <tr>
+                      <td><span class="footer-item" style="color: white;"><b>Help Centre</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Talk to Support</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Update</b></span></td>
+                  </tr>
+                  <tr>
+                      <td><span class="footer-item" style="color: white;"><b>Account Information</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Support Docs</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Security</b></span></td>
+                  </tr>
+                  <tr>
+                      <td><span class="footer-item" style="color: white;"><b>About</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>System Status</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Beta Test</b></span></td>
+                  </tr>
+                  <tr>
+                      <td><span class="footer-item" style="color: white;"><b>Contact Us</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Covid Respond</b></span></td>
+                      <td><span class="footer-item" style="color: white;"><b>Pricing Product</b></span></td>
+                  </tr>
+              </table>
+          </div>
+            <small class="small-text2"><b> © 2022 Biccas Inc. Copyright and rights reserved </b> </small>
+
+        </div>
+    </div>
+    <!-- Footer Container ends here -->
+
+</div>
