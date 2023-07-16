@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    @apply text-gray-800 bg-[#C3BEF0];
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+#loader h1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.char {
+    @apply translate-y-full transition-transform;
+}
