@@ -60,11 +60,25 @@ function App() {
               <h1 class="text-5xl font-bold mb-3">
                 Revolutionize Your Recruitment Process
               </h1>
-              <p>
+              <p class="mb-3">
                 Introducing Backfeed.ai - An AI-powered recruitment platform
                 that streamlines hiring, enriches candidate experience, and
                 empowers data-driven decisions.
               </p>
+              <div class="flex items-center gap-3">
+                <a
+                  href=""
+                  class="rounded-full inline-flex items-center justify-center border-4 border-violet-700 bg-violet-700 w-64 p-2"
+                >
+                  Join Today
+                </a>
+                <a
+                  href=""
+                  class="rounded-full inline-flex items-center justify-center border-4 border-violet-700 w-64 p-2"
+                >
+                  Learn More
+                </a>
+              </div>
             </div>
             <div class="w-1/3 relative">
               <img src={mainimg} class="w-full" alt="" />
